@@ -16,7 +16,7 @@ public class Gamer : MonoBehaviour
     private Pregunta preguntaActual;
     private bool juegoTerminado = false;
 
-    void  start() {
+    void  Start() {
 
         if (preguntas.Count == 0) {
 
